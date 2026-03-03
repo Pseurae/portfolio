@@ -32,6 +32,7 @@
 <body>
     <script type="template-code" id="project-listing-template">
         <a class="listing" href="{{=link}}" target="_blank">
+            <div class="bg-img" style="background-image: url('{{=img}}')"></div>
             <h2>{{=name}}</h2>
             <p>{{=platform}}</p>
         </a>
@@ -39,7 +40,7 @@
     </script>
 
     <script type="template-code" id="education-listing-template">
-        <div class="listing" data-hover-image="{{=img}}">
+        <div class="listing">
             <h3 class="qualification">{{=qualification}}</h3>
             <p class="institution">{{=institution}}</p>
             <p class="year">{{=timespan}}</p>
