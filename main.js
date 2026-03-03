@@ -1,21 +1,18 @@
 const educationPoints = [
     {
         "qualification": "B. Tech (Computer Science)",
-        "institution": "Amrita Vishwa Vidyapeetham, Chennai",
-        "timespan": "2023 - 2027",
-        "img": "assets/images/education/amrita-chennai.jpg"
+        "institution": "M. Dasan Institute of Technology",
+        "timespan": "2024 - 2028",
     },
     {
         "qualification": "Class 12",
         "institution": "Bharatiya Vidya Bhavan, Chevayur",
         "timespan": "2022",
-        "img": "assets/images/education/chevayur.webp"
     },
     {
         "qualification": "Class 10",
         "institution": "Bharatiya Vidya Bhavan, Perumthiruthi",
         "timespan": "2020",
-        "img": "assets/images/education/perumthiruthi.jpg"
     }
 ];
 

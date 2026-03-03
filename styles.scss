@@ -1,3 +1,5 @@
+@use "sass:string";
+@use "sass:list";
 @import url("assets/fonts/fonts.css");
 
 @mixin on-hover {
@@ -301,7 +303,7 @@ body {
 
     $allTransitions: ();
     @each $i in $themePropsColors {
-        $allTransitions: append($allTransitions, unquote('#{$i} 0.25s ease-in-out'), comma)
+        $allTransitions: list.append($allTransitions, string.unquote('#{$i} 0.25s ease-in-out'), comma)
     }
 
     transition: $allTransitions;
